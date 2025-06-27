@@ -3,13 +3,13 @@
 @tailwind utilities;
 
 body {
-  background-image: url("../images/background.jpg");
-  background-size: contain;
+  background-image: url("../images/background.png");
+  background-size:contain;
   background-repeat: no-repeat;
 }
 
-@media (max-width: 576px) {
-  body {
-    background-image: url("../images/mobile-background.jpg");
-  }
+.ficon:hover{
+filter: brightness(0) saturate(100%) invert(75%) sepia(16%) saturate(6849%) hue-rotate(38deg) brightness(104%) contrast(83%);
+cursor: pointer;
+scale: 1.2;
 }

@@ -10,8 +10,8 @@
  
     <!-- Hero Section -->
     <section id="hero">
-            <div class="max-w-6xl mx-auto text-center my-20 px-10 pt-10">
-                <img src="./images/logo_clip.png" class="mx-auto my-2" alt="">
+            <div class="max-w-6xl  mx-auto text-center my-20 px-10 pt-10">
+                <img src="./images/logo.png" class="mx-auto my-2 w-40 md:w-48" alt="">
             </div>
             <div class="justify-center items-center text-center p-8 md:p-20">
                 <h3 class="mb-6 font-serif text-3xl md:text-4xl font-bold">A history of everything you copy</h3>
@@ -107,13 +107,13 @@
                 </p>
             </div>
             
-            <div class="flex flex-col md:flex-row justify-center items-center text-center space-x-4 space-y-20 md:space-y-6 px-12 md:px-10">
+            <div class="flex flex-col md:flex-row justify-center items-center text-center px-12 md:px-10 gap-8">
                 <div>
                     <img src="images/blacklist.svg" alt="" class="w-8 md:w-10 mx-auto mb-6 md:mb-4">
-                    <h4 class="mb-2 font-serif text-2xl md:text-3xl font-bold">
+                    <h4 class="mb-2 font-serif text-xl md:text-2xl font-bold">
                         Create blacklists
                     </h4>
-                    <p class="font-mono mx-auto text-xl md:text-2xl text-gray-500">
+                    <p class="font-mono mx-auto text-lg md:text-xl text-gray-500">
                         Easily search your snippets by
                         content, category, web address,
                         application, and more.
@@ -121,20 +121,20 @@
                 </div>
                 <div>
                     <img src="images/plain-text.svg" alt="" class="w-8 md:w-10 mx-auto mb-6 md:mb-4">
-                    <h4 class="mb-2 font-serif text-2xl md:text-3xl font-bold">
+                    <h4 class="mb-2 font-serif text-xl md:text-2xl font-bold">
                         Plain text snippets
                     </h4>
-                    <p class="font-mono mx-auto text-xl md:text-2xl text-gray-500">
+                    <p class="font-mono mx-auto text-lg md:text-xl text-gray-500">
                         Remove unwanted formatting from copied
                         text for a consistent look.
                     </p>
                 </div>
                 <div>
                     <img src="images/eye.svg" alt="" class="w-8 md:w-10 mx-auto mb-6 md:mb-4">
-                    <h4 class="mb-2 font-serif text-2xl md:text-3xl font-bold">
+                    <h4 class="mb-2 font-serif text-xl md:text-2xl font-bold">
                         Sneak preview
                     </h4>
-                    <p class="font-mono mx-auto text-xl md:text-2xl text-gray-500">
+                    <p class="font-mono mx-auto text-lg md:text-xl text-gray-500">
                         Quick preview of all snippets on your
                         Clipboard for easy access.
                     </p>
@@ -144,9 +144,60 @@
     </section>
 
     <!-- Refrences Section -->
-     <section id="refrences">
-
+     <section id="refrences"> 
+         <div class="flex flex-col md:flex-row justify-center items-center mx-auto py-20 px-16 my-20 gap-20 md:gap-40">
+            <img src="images/google.svg" alt="" class="w-60 md:w-40">
+            <img src="images/microsoft.svg" alt="" class="w-60 md:w-40">
+            <img src="images/ibm.svg" alt="" class="w-60 md:w-40">
+            <img src="images/hp.svg" alt="" class="w-60 md:w-40">
+            <img src="images/android.svg" alt="" class="w-40 md:w-20">
+         </div>
      </section>
       
+    <!-- Bottom CTA section -->
+    <section id="bottomCta">
+        <div class="justify-center items-center text-center p-8 md:p-20">
+            <h3 class="mb-6 font-serif text-3xl md:text-4xl font-bold">
+                Clipboard For Android And Windows
+            </h3>
+            <p class="max-w-3xl font-mono mx-auto text-2xl text-gray-500">
+                Available for free on the Playstore.
+                Download for Android or Windows, sync with
+                PhoneLink and youre ready to start adding to your
+                Clipboard.
+            </p>
+        </div>
+        <div class="flex flex-col md:flex-row justify-center items-center w-full gap-2 mb-20">
+                <div class="flex rounded-3xl bg-lime-500  px-8 p-2 gap-2 shadow-md hover:shadow-lg shadow-lime-600 hover:shadow-lime-600 hover:bg-lime-600 hover:scale-105 duration-500">
+                    <img src="./images/android-brands.svg" class="w-8" alt="">
+                    <button class="w-full">Download for Android</button>
+                </div>
+
+                <div class="flex rounded-3xl bg-cyan-600 px-8 p-2 gap-2 shadow-md hover:shadow-lg shadow-cyan-700 hover:shadow-cyan-700 hover:bg-cyan-700 hover:scale-105 duration-500">
+                    <img src="./images/windows-brands.svg" class="w-6" alt="">
+                    <button class="w-full">Download for windows</buttonlass=>
+                </div>
+        </div>
+    </section>
+
+    <footer class="bg-gray-200">
+        <div class="flex flex-col md:flex-row justify-center items-center px-10 py-4">
+            <div class="flex items-center justify-center text-black">
+                <img src="images/logo.png" alt="" class="w-14">
+            </div>
+            <div class="grid md:grid-cols-3 justify-center items-center text-center md:text-left text-zinc-500 font-semibold gap-2 py-4 px-10">
+                <div><a href="">FAQs</a></div>
+                <div><a href="">Contact Us</a></div>
+                <div><a href="">Privacy Policy</a></div>
+                <div><a href="">Press Kit</a></div>
+                <div><a href="">Install Guide</a></div>
+            </div>
+            <div class="flex justify-center items-center gap-8 pb-4">
+                <img src="images/facebook.svg" alt="" class="w-6 duration-200 ficon">
+                <img src="images/twitter.svg" alt="" class="w-6 duration-200 ficon">
+                <img src="images/instagram.svg" alt="" class="w-6 duration-200 ficon">
+            </div>
+        </div>
+    </footer>
 </body>
 </html>
